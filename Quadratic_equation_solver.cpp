@@ -15,6 +15,7 @@ int input(double* coeff) {
 			return 1;
 		}
 	}
+	return 0;
 }
 
 int linear_equation_solver(double** x1, double** x2, double b, double c) {
